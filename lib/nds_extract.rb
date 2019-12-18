@@ -35,10 +35,10 @@ end
 
 def movies_with_director_key(name, movies_collection)
   hash = []
-  collection = 0 
-  while movies_collection[collection] do 
-    ret_hash[collection]= movie_with_director_name(name, movies_collection[collection])  
-    collection += 1
+  coll = 0 
+  while movies_collection[coll] do 
+    ret_hash[coll]= movie_with_director_name(name, movies_collection[coll])  
+    coll += 1
   end
   hash
   #GOAL: For each Hash in an Array (movies_collection), provide a collection
