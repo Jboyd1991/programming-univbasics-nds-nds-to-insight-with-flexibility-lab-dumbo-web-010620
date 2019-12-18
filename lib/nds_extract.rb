@@ -36,7 +36,7 @@ end
 def movies_with_director_key(name, movies_collection)
   dir_name = "Byron Poodle"
   updated_movies = movies_with_director_key(name, movies_collection)
-  updated_movies = 
+  updated_movies = [:director_name].push 
     
   
   #GOAL: For each Hash in an Array (movies_collection), provide a collection
