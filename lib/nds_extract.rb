@@ -38,8 +38,8 @@ def movies_with_director_key(name, movies_collection)
     [ {:title "black panther",
       :worldwide_gross => 154000000 ,
       :release_year => 2018,
-      :studio "Paramount"],
-      :director_name "John Legend"}
+      :studio "Marvel Studios"],
+      :director_name ""}
   {
     :title "Spartan",
       :worldwide_gross => 6000000 ,
