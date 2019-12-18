@@ -42,9 +42,9 @@ def movies_with_director_key(name, movies_collection)
       :director_name "Ryan Coogler"}
   {
     :title "300",
-      :worldwide_gross =>  ,
-    :release_year =>2007,
-    :studio "Mage Entertainment"],
+      :worldwide_gross => 456000000 ,
+    :release_year => 2007,
+    :studio ""],
     :director_name "Lucas Jan"}
     ]
   #GOAL: For each Hash in an Array (movies_collection), provide a collection
