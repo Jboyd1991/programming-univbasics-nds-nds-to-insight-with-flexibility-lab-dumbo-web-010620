@@ -35,7 +35,8 @@ end
 
 def movies_with_director_key(name, movies_collection)
   dir_name = "Byron Poodle"
-  updated_movies = movies_with_director_key
+  updated_movies = movies_with_director_key(name, movies_collection)
+  
     
   
   #GOAL: For each Hash in an Array (movies_collection), provide a collection
