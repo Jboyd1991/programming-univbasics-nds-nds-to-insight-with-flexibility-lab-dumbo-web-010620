@@ -39,10 +39,10 @@ def movies_with_director_key(name, movies_collection)
       :worldwide_gross => 154000000 ,
       :release_year => 2018,
       :studio "Marvel Studios"],
-      :director_name ""}
+      :director_name "Ryan Coogler"}
   {
-    :title "Spartan",
-      :worldwide_gross => 6000000 ,
+    :title "300",
+      :worldwide_gross =>  ,
     :release_year =>2007,
     :studio "Mage Entertainment"],
     :director_name "Lucas Jan"}
